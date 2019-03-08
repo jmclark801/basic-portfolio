@@ -1,4 +1,12 @@
 body {
-  background-color: #CCC
+  background-color: #25527B
+}
+
+h1 {
+  color: #5DAFBD
+}
+
+p, a, link {
+  color: white;
 }
 
