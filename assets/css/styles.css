@@ -1,0 +1,23 @@
+body {
+  background-color: #25527B
+}
+
+h1 {
+  color: #5DAFBD
+}
+
+p, a, link {
+  color: white;
+}
+
+.profile-image {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.profile-logo {
+  height: 50px;
+  width: 50px;
+}
+
