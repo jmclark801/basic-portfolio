@@ -1,5 +1,8 @@
 /* CSS for Jim Clark's portfolio */
+a {
+  color: #999;
 
+}
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -8,6 +11,15 @@
 
 .clear-float {
   clear: both;
+}
+
+.contact-list-item {
+  list-style-type: none;
+  margin: 15px;
+}
+
+.contact-list-item:last-child{
+  padding-bottom: 50px;
 }
 
 .content {
@@ -32,20 +44,57 @@
 .content-header {
   color: #3FAAA5;
   font-size: 2em;
-  padding: 15px;
   margin: 0px 0px 0px 0px;
+  padding: 15px;
   width: 250px;
 }
 
 .content-header-horizontal-rule {
-  border-top: 1px solid rgba(153, 153, 153, .2);
+  border-top: 2px solid rgba(153, 153, 153, .2);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
   margin: 0 15px 20px 15px;
 }
+
+form {
+  color: #777;
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+form button {
+  color: white;
+  background-color: #3FAAA5;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 50px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  width: 100px;
+}
+
+form input {
+  color: #777;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 15px 0px;
+  padding: 10px 10px; 
+}
+
+.form-input-large {
+  width: 90%;
+  height: 150px; 
+}
+
 
 .flex-wrapper {
   display: flex;
 }
 
+footer {
+  border-top: 5px solid #3FAAA5;
+}
 .footer-image {
   height: 50px;
   width: 50px;
@@ -53,6 +102,11 @@
 
 footer.flex-wrapper {
   justify-content: center;
+}
+
+.nav-item:nth-child(even) {
+  border-left: 2px solid rgba(153, 153, 153, .3);
+  border-right: 2px solid rgba(153, 153, 153, .3);
 }
 
 .margin-wrapper {
@@ -84,11 +138,6 @@ footer.flex-wrapper {
   color: #999;
   font-size: 22px;
   text-decoration: none; 
-}
-
-li:nth-child(even) {
-  border-left: 2px solid rgba(153, 153, 153, .3);
-  border-right: 2px solid rgba(153, 153, 153, .3);
 }
 
 .profile-image {
