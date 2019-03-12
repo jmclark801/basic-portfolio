@@ -13,6 +13,19 @@ a {
   clear: both;
 }
 
+.coming-soon-label {
+  background-color: #3FAAA5;
+  color: white;
+  font-size: 18px;
+  width: 220px;
+  height: 35px;
+  margin: 25px;
+  padding-top: 12px;
+  position: absolute;
+  text-align: center;
+  top: 105px;
+}
+
 .contact-list-item {
   list-style-type: none;
   margin: 15px;
@@ -74,19 +87,19 @@ form button {
   width: 100px;
 }
 
-form input {
+form input, form textarea {
   color: #777;
   font-size: 20px;
   line-height: 24px;
   margin: 15px 0px;
   padding: 10px 10px; 
+  vertical-align: top;
 }
 
 .form-input-large {
   width: 90%;
   height: 150px; 
 }
-
 
 .flex-wrapper {
   display: flex;
@@ -140,8 +153,18 @@ footer.flex-wrapper {
   text-decoration: none; 
 }
 
+.portfolio-image {
+  height: 165px;
+  width: 220px;
+  padding: 25px;
+}
+
 .profile-image {
   float: left;
   padding-right: 15px;
+}
+
+.project-wrapper {
+  position: relative;
 }
 
