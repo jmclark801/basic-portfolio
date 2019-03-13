@@ -26,10 +26,9 @@ a {
   top: 105px;
 }
 
-.contact-list-item {
-  list-style-type: none;
-  margin: 15px;
-}
+/* .contact-list-item-link {
+  float: left;
+} */
 
 .contact-list-item:last-child{
   padding-bottom: 50px;
@@ -79,7 +78,7 @@ form {
 form button {
   color: white;
   background-color: #3FAAA5;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 20px;
   height: 50px;
   margin-bottom: 50px;
@@ -93,6 +92,7 @@ form input, form textarea {
   line-height: 24px;
   margin: 15px 0px;
   padding: 10px 10px; 
+  resize: none;
   vertical-align: top;
 }
 
@@ -120,6 +120,7 @@ footer.flex-wrapper {
 .nav-item:nth-child(even) {
   border-left: 2px solid rgba(153, 153, 153, .3);
   border-right: 2px solid rgba(153, 153, 153, .3);
+  padding: 0px 15px;
 }
 
 .margin-wrapper {
@@ -139,7 +140,7 @@ footer.flex-wrapper {
   justify-content: space-between;
 }
 
-.nav-item {
+.nav-item, .contact-list-item {
   align-self: auto;
   list-style-type: none;
   height: 25px;
@@ -167,4 +168,9 @@ footer.flex-wrapper {
 .project-wrapper {
   position: relative;
 }
+
+.space-between {
+  justify-content: space-around;
+}
+
 
